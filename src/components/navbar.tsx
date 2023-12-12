@@ -14,7 +14,7 @@ export default function Navbar() {
           Weather Map
         </Link>
         <Link href="/genz" className="nav-link">
-          Genz Newz
+          GenZ News
         </Link>
         <Link href="/" className="nav-link">
           Register
