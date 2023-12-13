@@ -10,7 +10,7 @@ export default function News() {
     console.log((await response).json());
   };
   useEffect(() => {
-    getAllNews();
+    //getAllNews();
   }, []);
   return <h1>News</h1>;
 }

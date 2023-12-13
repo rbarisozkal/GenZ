@@ -3,8 +3,6 @@ import type { NextRequest } from 'next/server'
 
 // This function can be marked `async` if using `await` inside
 export function middleware(request: NextRequest) {
-    let mapboxgl = require('mapbox-gl/dist/mapbox-gl');
-    mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
     return NextResponse.redirect(new URL('/home', request.url))
 }
 
