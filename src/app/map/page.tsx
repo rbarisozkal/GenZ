@@ -12,8 +12,8 @@ export default function Map() {
   function findCity(e: any) {
     if (e.key === "Enter") {
       console.log(e.currentTarget.value);
-    } else {
-      console.log("dewam");
+      const cityInfo = fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${e.currentTarget.value}&key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`)
+      console.log(cityInfo);
     }
   }
   function initMap() {

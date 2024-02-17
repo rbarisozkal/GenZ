@@ -16,8 +16,8 @@ export default function Navbar() {
         <Link href="/genz" className="nav-link">
           GenZ News
         </Link>
-        <Link href="/" className="nav-link">
-          Register
+        <Link href="/sign-in" className="nav-link">
+          Sign in
         </Link>
       </div>
     </div>

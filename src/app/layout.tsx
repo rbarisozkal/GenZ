@@ -23,7 +23,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={inter.className}>
+      <body className="flex flex-col h-screen">
         <Navbar />
         {children}
       </body>
